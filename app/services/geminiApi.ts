@@ -12,7 +12,7 @@ export async function generateSolarEstimation(
 ) {
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-flash-latest",
+      model: "gemini-2.5-flash",
     });
 
     const prompt = `
